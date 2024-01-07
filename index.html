@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan Raju C</title>
+    <script src="https://kit.fontawesome.com/1b545f7c09.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="logo"><span id="recolor">C</span>haran.</h1>
+                <ul id="sidebar" onclick="closeMenu()">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> <span id="role">Java Full Stack Developer</span> </p>
+                <h1>Hi, I'm <span>Charan Raju</span><br />from Hyderabad </h1>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div id="about-col-1">
+                    <img src="./Resources/full_potrait.png" alt="my potrait Image">
+                </div>
+                <div id="about-col-2">
+                    <h1 class="title">About Me</h1>
+                    <p class="about-me-text">I am a highly proficient Java Full Stack Developer, holding dual
+                        Baccalaureate degrees in IT from Sastra University and Science from BRAO University, both with
+                        distinction. Proficient in Java, Python, C, C++, JavaScript, React, Angular, HTML, CSS,
+                        Servlets, JSP, SQL, Spring MVC, REST API, and Spring Boot, I boast three years of experience
+                        building web applications, with hands-on expertise in cloud-based solutions. Recognized for my
+                        adaptability, I thrive in dynamic settings. Excited to contribute my versatile skills and
+                        innovation to your team.</p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link"><a onclick="loadTab('skills')">Skills</a></p>
+                        <p class="tab-link"><a onclick="loadTab('experience')">Experience</a></p>
+                        <p class="tab-link"><a onclick="loadTab('education')">Education</a></p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Development</span><br /> Proficient in Java, Python, C, C++, and
+                                JavaScript. Experienced in building dynamic and responsive web applications using React,
+                                Angular, Spring MVC, Spring Boot, HTML, CSS, Servlets, and JSP.</li>
+                            <li><span>Database Management</span><br /> Skilled in database design and management,
+                                utilizing SQL for efficient data handling in web applications </li>
+                            <li><span>Cloud-Based Solutions</span><br />Experienced in developing and deploying
+                                cloud-based web applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Aug 2021 - Current</span><br /> I'm a full-stack developer at Birlasoft, working
+                                on projects for a top American fintech client. </li>
+                            <li><span>Dec 2020 - Jul 2021</span><br /> I served as a junior developer at Tech Mahindra,
+                                contributing to multiple Java projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology in Information Technology</span><br />I graduated with
+                                distinction in B.Tech IT from Sastra University, Thanjavur.</li>
+                            <li><span>Bachelor of Science</span><br />After B.Tech I've pursued B.Sc in Mathematics,
+                                Statistics, and Computer Applications at BRAO University, securing another distinction
+                            </li>
+                            <li><span>Schooling</span><br /> SSC (X) - 9.3 CGPA. Intermediate(XII) - 95%</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="technologies">
+        <div class="container">
+            <h1 class="title">My Tech Arsenal</h1>
+            <div class="languages-list">
+                <div class="language">
+                    <i class="fa-brands fa-angular"></i>
+                </div>
+                <div class="language">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+                <div class="language">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="language">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="language">
+                    <i class="fa-brands fa-square-js"></i>
+                </div>
+                <div class="language">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+                <div class="language">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="language">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+
+            <h1 class="title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Custom Web Application</h2>
+                    <p>Crafted for your unique business needs, our expertise in full-stack development ensures a
+                        responsive, scalable, and precisely tailored web solution</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <h2>Code Mastery Sessions</h2>
+                    <p>Elevate your skills through personalized, one-on-one web development tutoring. Tailored for
+                        individuals or teams aiming for coding proficiency and advanced application development
+                        practices</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Transform your online presence with our web design services. We create visually appealing,
+                        user-friendly designs that enhance the overall user experience, driving engagement and
+                        conversion</p>
+                    <a href="">Learn More</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Resources/organ_donation_management.jpg">
+                    <div class="layer">
+                        <h3>Organ Donation Management System</h3>
+                        <p>Streamline organ donation requests and management for hospitals and donors with an efficient
+                            system.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./Resources/email_approval.jpg">
+                    <div class="layer">
+                        <h3>Email based Approval System</h3>
+                        <p>Enhance approval processes by triggering OTP-verified approvals through a seamless
+                            email-based application.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Resources/resource_Request.jpg">
+                    <div class="layer">
+                        <h3>New Resource Request System</h3>
+                        <p>Efficiently manage resource requests in projects, seamlessly connecting with internal and
+                            external sources for optimal project continuity</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" id="more-btn">More Projects</a>
+        </div>
+    </div>
+    <!-- ---------------Contact -------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div id="contact-left">
+                    <h1 class="title">Contact Info</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i><a
+                            href="mailto:CharanRajuChamarthi@gmail.com">CharanRajuChamarthi@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:+919944583890">+91 9944583890</a></p>
+                    <div class="social-media-links">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <button class="btn">Download Resume</button>
+                </div>
+                <div id="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Your Message"
+                            required></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <p>&copy; 2024 Charan Raju C. All rights reserved.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-link");
+        var tabContents = document.getElementsByClassName("tab-content");
+        function loadTab(tabName) {
+            for (tablink of tabLinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.parentNode.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sideBar = document.getElementById("sidebar");
+        function openMenu() {
+            sideBar.style.right = "0";
+        }
+        function closeMenu() {
+            sideBar.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzZ-0aNYu_IzFoiUEmWpOSwe0ohUk-H1hWWMZXNL7XKSoqfvGFZklFop8v7gEswCHS9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#role", {
+            strings: [
+                "Front-End Developer",
+                "Back-End Developer",
+                "Java developer",
+                "HTML Developer",
+                "Java Full Stack Developer",
+            ],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
