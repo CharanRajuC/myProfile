@@ -39,10 +39,10 @@ nav{
     font-size: 60px;
 
 }
-#menuIcon{
+na ul svg{
     display : none;
 }
-#closeIcon{
+nav svg{
     display: none;
 }
 
@@ -423,11 +423,9 @@ nav .fa-solid{
         font-size: 35px;
     }
     nav .fa-solid{
-        display: block;
         font-size: 25px;
     }
     nav ul{
-        display: block;
         background: #ff004f;
         position: fixed;
         top: 0;
