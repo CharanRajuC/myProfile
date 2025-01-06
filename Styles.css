@@ -396,12 +396,14 @@ font-weight: 300;
 nav .fa-solid{
     display: none;
 }
-
-nav ul svg, nav ul i{
-    display : none;
+nav ul svg {
+    !display: none;
 }
-nav svg, nav ul i{
-    display: none;
+nav ul i{
+    !display: none;
+}
+nav svg{
+    !display: none;
 }
 
 
