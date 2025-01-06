@@ -39,13 +39,6 @@ nav{
     font-size: 60px;
 
 }
-nav ul svg{
-    display : none;
-}
-nav svg{
-    display: none;
-}
-
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -401,6 +394,13 @@ background: #262626;
 font-weight: 300;
 }
 nav .fa-solid{
+    display: none;
+}
+
+nav ul svg, nav ul i{
+    display : none;
+}
+nav svg, nav ul i{
     display: none;
 }
 
