@@ -39,6 +39,9 @@ nav{
     font-size: 60px;
 
 }
+nav ul{
+    display : none;
+}
 
 nav ul li{
     display: inline-block;
@@ -421,6 +424,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
+        display: block;
         background: #ff004f;
         position: fixed;
         top: 0;
@@ -437,6 +441,7 @@ nav .fa-solid{
     }
 
     nav ul .fa-solid{
+       display : block;
        position: absolute;
        top: 25px;
        left: 25px;
