@@ -39,8 +39,11 @@ nav{
     font-size: 60px;
 
 }
-nav ul i{
+#menuIcon{
     display : none;
+}
+#closeIcon{
+    display: none;
 }
 
 nav ul li{
