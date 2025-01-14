@@ -211,7 +211,7 @@ display: block;
 
 }
 
-.services-list div i{
+.services-list div svg{
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -320,7 +320,7 @@ display: block;
     margin-top: 30px;
 }
 
-#contact-left p i{
+#contact-left p svg{
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
@@ -393,19 +393,9 @@ padding: 25px 0;
 background: #262626;
 font-weight: 300;
 }
-nav .fa-solid{
-    display: none;
+nav .svg-inline--fa{
+    display: none ;
 }
-nav ul svg {
-    !display: none;
-}
-nav ul i{
-    !display: none;
-}
-nav svg{
-    !display: none;
-}
-
 
  /* css for mobile */
 
@@ -424,8 +414,9 @@ nav svg{
     .header-text h1 span{
         font-size: 35px;
     }
-    nav .fa-solid{
+    nav .svg-inline--fa{
         font-size: 25px;
+        display: inline;
     }
     nav ul{
         background: #ff004f;
