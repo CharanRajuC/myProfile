@@ -359,6 +359,14 @@ display: block;
     background: #ff004f;
     opacity: 0.8;
 }
+.btn a{
+    text-decoration: none;
+    margin: 30px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    border-radius: 6px;
+    color: white;
+}
 .btn:hover{
     cursor: pointer;
     opacity: 1;
